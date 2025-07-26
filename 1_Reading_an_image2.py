@@ -91,7 +91,7 @@ cv2.imshow('output', output)
 
 # Adding the text using putText() function 
 text = cv2.putText(output, 'OpenCV Demo', (500, 550), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 4, (255, 0, 0), 2) 
+                    cv2.FONT_HERSHEY_SIMPLEX, 8, (255, 0, 0), 2) 
 
 #display image
 cv2.imshow('image', text)
